@@ -1,0 +1,17 @@
+int main()
+{
+   int num, p, res=1;
+
+  printf("Enter a positive number");
+  scanf ("%d", &num);
+   
+   for(p=1;p<=num;p++)
+
+  res=res*p;
+
+ printf("Factorial s %d", res);
+
+return 0;
+
+  
+}
